@@ -1,0 +1,17 @@
+District,Taluka,Circle,Total_Rainfall,Average_Rainfall,Maximum_Rainfall,Rainy_Days,Heavy_Rain_Days,Actual_Intensity,PSO_RF_Prediction,PSO_NN_Prediction,PSO_RF_Correct,PSO_NN_Correct
+Parbhani,Sonpeth,Sonpeth,374.30000000000007,8.704651162790698,66.3,22,1,High,High,High,True,True
+Parbhani,Manvat,Kolha,300.6000000000001,6.990697674418606,58.0,23,0,Moderate,Low,Low,False,False
+Parbhani,Purna,Tadakalas,543.3,12.634883720930231,194.5,25,2,High,High,High,True,True
+Parbhani,Pathari,kasapuri,355.80000000000007,8.274418604651164,68.0,22,1,Moderate,Moderate,High,True,False
+Parbhani,Selu,Selu,279.79999999999995,6.506976744186045,50.0,28,0,Low,Low,Low,True,True
+Parbhani,Purna,Purna,422.0000000000001,9.813953488372096,66.8,22,1,High,High,High,True,True
+Parbhani,Purna,Chudawa,380.0,8.837209302325581,66.5,23,1,High,High,High,True,True
+Parbhani,Jintur,Dudhgaon,327.6000000000001,7.6186046511627925,48.3,24,0,Moderate,Moderate,Moderate,True,True
+Average,DISTRICT,Parbhani,346.1999999999999,8.051162790697672,62.0,35,0,Moderate,Moderate,Moderate,True,True
+Parbhani,Jintur,Bamani,282.80000000000007,6.576744186046513,71.8,25,1,Low,Low,Low,True,True
+Parbhani,Gangakhed,Makhani,339.80000000000007,7.902325581395351,90.8,22,1,Moderate,Moderate,High,True,False
+Parbhani,Selu,Chikalthana,244.10000000000002,5.676744186046512,55.5,21,0,Low,Low,Low,True,True
+Parbhani,Parbhani,Parbhani,257.6,5.990697674418605,66.0,23,1,Low,Low,Low,True,True
+Parbhani,Palam,Chatori,387.50000000000006,9.011627906976745,87.3,19,2,High,High,High,True,True
+Parbhani,Parbhani,Pedgaon,218.10000000000008,5.072093023255816,41.3,25,0,Low,Low,Low,True,True
+Parbhani,Purna,Kanteshwar,355.9000000000001,8.276744186046514,72.8,24,1,High,Moderate,Moderate,False,False

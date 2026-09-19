@@ -1,0 +1,45 @@
+project:
+  name: AI-Based Rainfall Intensity Classification
+  description: Machine Learning and Neural Network based rainfall intensity classification
+    system.
+dataset:
+  filename: rainfall_0.csv
+  rows: 62
+  columns: 63
+  rainfall_measurement_columns: 43
+target:
+  column: Rainfall_Intensity
+  classes:
+  - High
+  - Low
+  - Moderate
+features:
+- Average_Rainfall
+- Maximum_Rainfall
+- Minimum_Rainfall
+- Rainfall_Std
+- Rainy_Days
+- Moderate_Rain_Days
+- Heavy_Rain_Days
+- Very_Heavy_Rain_Days
+- Extreme_Rain_Days
+- Rainfall_Range
+- Rainfall_CV
+- August_Total_Rainfall
+- August_Average_Rainfall
+- September_Total_Rainfall
+- September_Average_Rainfall
+models:
+  random_forest:
+    type: RandomForestClassifier
+    estimators: 300
+    accuracy: 0.75
+  neural_network:
+    type: Feedforward Neural Network
+    accuracy: 0.8125
+    epochs_requested: 200
+saved_files:
+  h5: rainfall_model.h5
+  pkl: rainfall_model.pkl
+  yaml: rainfall_config.yaml
+  json: rainfall_metadata.json

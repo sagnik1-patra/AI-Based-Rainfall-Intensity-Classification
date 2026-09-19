@@ -1,0 +1,40 @@
+project:
+  name: AI-Based Rainfall Intensity Classification
+  optimization: Artificial Immune System (AIS)
+  ais_method: Clonal Selection Feature Optimization
+dataset:
+  filename: rainfall_0.csv
+  rows: 62
+  rainfall_columns: 43
+ais:
+  population_size: 20
+  generations: 20
+  elite_size: 5
+  clones_per_elite: 4
+  mutation_rate: 0.15
+  best_fitness: 0.996
+  selected_feature_count: 6
+  selected_features:
+  - Average_Rainfall
+  - Moderate_Rain_Days
+  - Very_Heavy_Rain_Days
+  - Extreme_Rain_Days
+  - Rainfall_Range
+  - August_Total_Rainfall
+target:
+  column: Rainfall_Intensity
+  classes:
+  - High
+  - Low
+  - Moderate
+models:
+  ais_random_forest:
+    accuracy: 0.875
+    precision: 0.8854166666666667
+    recall: 0.875
+    f1_score: 0.875
+  ais_neural_network:
+    accuracy: 0.9375
+    precision: 0.9464285714285714
+    recall: 0.9375
+    f1_score: 0.9364316239316239
